@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5866874779:AAE9QbvaYNLYZTG5Z3mj8sK_Oyzn7WQEEmQ")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", ""))
@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "mrismanaziz")
+OWNER = os.environ.get("OWNER", "@OwnerGank")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((844432220, 1250450587, 1750080384, 182990552))
+ADMINS.extend((1922424693, 1965975794, 1922424693, 1965975794))
 
 
 LOG_FILE_NAME = "logs.txt"
