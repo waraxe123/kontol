@@ -11,7 +11,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(te
-                InlineKeyboardButton(text="ᴊᴏɪɴ ʟᴀɢɪ", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴊᴏɪɴ ʟᴀɢɪ", url=
             ],
         ]
         return buttons
