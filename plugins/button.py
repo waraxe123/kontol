@@ -10,7 +10,7 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴊᴏɪɴ ᴅᴜʟᴜ", url=client.invitelink),
+                InlineKeyboardButton(te
                 InlineKeyboardButton(text="ᴊᴏɪɴ ʟᴀɢɪ", url=client.invitelink2),
             ],
         ]
