@@ -26,7 +26,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001637541266"))
 OWNER = os.environ.get("OWNER", "@OwnerGank")
 
 # Protect Content
-PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
+PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "True"))
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -36,7 +36,7 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://fygssyym:k6rMwe6U0_-pWc0-x85yjsElbSgkcEC0@arjuna.db.elephantsql.com/fygssyym")
+DB_URI = os.environ.get("DATABASE_URL", "postgresql://cfhcnuws:WdzNzd-OS39pKvDow1i7WFD9Th0VkDjz@arjuna.db.elephantsql.com/cfhcnuws")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001810173546"))
