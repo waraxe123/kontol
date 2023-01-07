@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5866874779:AAGgZQG7cV_sDSI01NRDsLcXda_AD-zW1zo")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5606972373:AAGsiksEDSAS8z7Idgc6k6E8G31isUXNKkA")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "12538418"))
@@ -40,7 +40,7 @@ DB_URI = os.environ.get("DATABASE_URL", "postgresql://qbrbrjnv:tqVmHud0XLveTkUxt
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001875475504"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001833178908"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001767783869"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
